@@ -3,17 +3,9 @@ body {
 }
 
 
-
-
-.my-video {
-    width: 90%;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.my-video::-webkit-media-controls-timeline {
+    display: none !important;
 }
-
 
 
 
